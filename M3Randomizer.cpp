@@ -189,7 +189,8 @@ int main() {
         itempal[f] = 0;
       }
       for (f = 0; f <= 14; f++) charsound[f] = 0;
-      charrand[f] = 0;
+      for (f = 0; f <= 14; f++) charrand[f] = 0;
+      // charrand[f] = 0;
       for (f = 0; f <= 254; f++) enememo[f] = 0;
       for (f = 0; f <= 256; f++) {
         enebagraph[0][f] = 0;
