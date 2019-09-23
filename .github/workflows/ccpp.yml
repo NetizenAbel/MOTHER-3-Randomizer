@@ -11,3 +11,6 @@ jobs:
     - uses: actions/checkout@v1
     - name: make
       run: make
+      
+    - uses: dtinth/todo-actions@v0.2.0
+      name: todo-actions
